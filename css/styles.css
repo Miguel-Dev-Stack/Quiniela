@@ -32,6 +32,10 @@ body {
     max-width: 120rem;
     margin: 0 auto;
 }
+.contenedorApuestas {
+    max-width: 100rem;
+    margin: 0 auto;
+}
 .boton {
     background-color: var(--secundario);
     color: var(--blanco);
@@ -63,7 +67,7 @@ body {
     box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
     background-color: var(--blanco);
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 2.5rem;
 }
 
 /* Tipografia */
@@ -427,3 +431,27 @@ body {
 }
 
 /** TERMINA REGISTRO DE USUARIO **/
+
+.difusionApuestas {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.difusionApuestasCompetidores {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}

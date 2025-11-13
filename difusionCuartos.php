@@ -24,7 +24,8 @@
 </head>
 <body>
     <header>
-        <h1 class="titulo">Quiniela <span>Liga MX</span></h1>
+        <h1 class="titulo">Quiniela Covadonga <span>Liga MX</span></h1>
+        <button class="botons" type="submit" name="cerrarSesion" onclick="location='iniciar_sesion.php'">Salir</button>
     </header>
 
     <div class="nav-bg">
@@ -62,15 +63,28 @@
     </div>
 </div>
 
-
-
 <script src="./js/app.js"></script>
 
 <!-- TERMINA SLIDER RESPONSIVO -->
 
-
-
+<main class="contenedorApuestas sombra">
+<h2>Difusión de Apuestas de Cuartos de Final</h2>
+    <div class="difusionApuestas">
+        <h4>Tus Apuestas</h4>
+        <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
+        <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
+        <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
+        <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
+    </div>
+    <div class="difusionApuestasCompetidores">
+        <h4>Las Apuestas de otros competidores</h4>
+        <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
+        <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
+        <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
+        <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
+    </div>
 </main>
+
     
 <footer class="footer">
     <p>Todos los derechos reservados. HCV</p>

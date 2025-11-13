@@ -14,6 +14,7 @@
     <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
     <button class="botons" type="submit" name="entrar" onclick="location='index.php'">Entrar</button>
+    <button class="botons" type="submit" name="entrar" onclick="location='registro.php'">Registrarme</button>
   </section>
 
 </body>
