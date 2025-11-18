@@ -28,12 +28,12 @@ body {
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% );
 }
-.contenedor {
+.contenedor1 {
     max-width: 120rem;
     margin: 0 auto;
 }
 .contenedorApuestas {
-    max-width: 100rem;
+    max-width: 150rem;
     margin: 0 auto;
 }
 .boton {
@@ -120,18 +120,19 @@ h1,h2,h3 {
 .nav-bg {
     background-color: var(--secundario);
 }
-.navegacion-principal {
+.navegacion-principal1 {
     display: flex;
     flex-direction: column;
+    background-color: var(--secundario);
 }
 @media (min-width: 768px) {
-    .navegacion-principal {
+    .navegacion-principal1 {
         flex-direction: row;
         justify-content: space-between;
     }
 }
 
-.navegacion-principal a {
+.navegacion-principal1 a {
     display: block;
     text-align: center;
     color: var(--blanco);
@@ -140,7 +141,7 @@ h1,h2,h3 {
     font-weight: 700;
     padding: 1rem;
 }
-.navegacion-principal a:hover {
+.navegacion-principal1 a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
 }
@@ -393,6 +394,18 @@ body {
 
 .controls {
   width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.botonIrAResultadosCuartos {
+  width: 25%;
   background: #24303c;
   padding: 10px;
   border-radius: 4px;

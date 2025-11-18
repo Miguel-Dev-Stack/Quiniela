@@ -19,6 +19,9 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -28,7 +31,7 @@
     </header>
 
     <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
+        <nav class="navegacion-principal1 contenedor1">
             <a href="index.php">Inicio</a>
             <a href="#">Sobre Mi</a>
             <a href="participantes.php">Participantes</a>
@@ -53,7 +56,7 @@
     </section>
     
     <footer class="footer">
-        <p>Todos los derechos reservados. HCV</p>
+        <p>2025. Corporativo Covadonga. Todos los derechos reservados.</p>
     </footer>
 
 

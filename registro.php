@@ -18,6 +18,12 @@
     <input class="botons" type="submit" value="Registrar" a href="iniciar_sesion.php">
     <button class="botons" type="submit" name="yaTengoCuenta" onclick="location='iniciar_sesion.php'">¿Ya tengo Cuenta?</button>
   </section>
+  <div class="input-field col s12 m4">
+  </div>
+<div class="divider"></div>
+<footer class="footer">
+  <p>2025. Corporativo Covadonga. Todos los derechos reservados.</p>
+</footer>
 
 </body>
 </html>

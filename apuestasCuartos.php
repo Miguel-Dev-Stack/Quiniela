@@ -19,6 +19,9 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -29,7 +32,7 @@
     </header>
 
     <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
+        <nav class="navegacion-principal1 contenedor1">
             <a href="index.php">Inicio</a>
             <a href="#">Sobre Mi</a>
             <a href="participantes.php">Participantes</a>
@@ -66,9 +69,11 @@
 <script src="./js/app.js"></script>
 
 <!-- TERMINA SLIDER RESPONSIVO -->
+<div class="input-field col s12 m4">
+</div>
 
 <main class="contenedorApuestas sombra">
-<h2>Apuestas de Cuartos de Final</h2>
+<h2><b>Apuestas de Cuartos de Final</b></h2>
     <section class="form-register">
         <h4>Realiza tus Apuestas</h4>
         <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
@@ -80,7 +85,7 @@
 </main>
     
 <footer class="footer">
-    <p>Todos los derechos reservados. HCV</p>
+    <p>2025. Corporativo Covadonga. Todos los derechos reservados.</p>
 </footer>
 
 </body>

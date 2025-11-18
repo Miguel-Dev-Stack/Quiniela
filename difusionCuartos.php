@@ -19,6 +19,15 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>-->
+    <!--Import Google Icon Font-->
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -29,7 +38,7 @@
     </header>
 
     <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
+        <nav class="navegacion-principal1 contenedor1">
             <a href="index.php">Inicio</a>
             <a href="#">Sobre Mi</a>
             <a href="participantes.php">Participantes</a>
@@ -67,65 +76,34 @@
 
 <!-- TERMINA SLIDER RESPONSIVO -->
 
-<!--
-<main class="contenedorApuestas sombra">
-<h2>Difusión de Apuestas de Cuartos de Final</h2>
-    <div class="difusionApuestas">
-        <h4>Tus Apuestas</h4>
-        <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-        <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-        <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-        <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
-    </div> 
-    <div class="difusionApuestasCompetidores">
-        <h4>Las Apuestas de otros competidores</h4>
-        <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-        <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-        <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-        <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
-    </div>
-</main>
-
-<main class="contenedorApuestas sombra">
-<h2>Difusión de Apuestas de Cuartos de Final</h2>
-    <div class="difusionApuestasCompetidores">
-        <h4>Las Apuestas de otros competidores</h4>
-        <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-        <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-        <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-        <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
-    </div>
-</main>
-
 <div class="input-field col s12 m4">
-    <button class="botons2" type="submit" name="regresarApuestas" onclick="location='apuestasCuartos.php'">Regresar a Apuestas</button>
 </div>
 
-<div class="input-field col s12 m4">
-    <button class="botons2" type="submit" name="verResultados" onclick="location='resultadosCuartos.php'">Ver Resultados</button>
-</div>
--->
-
 <main class="contenedorApuestas sombra">
-<h2>Difusión de Apuestas de Cuartos de Final</h2>
+<h2><b>Difusión de Apuestas de Cuartos de Final</b></h2>
+<div class="container">
     <div class="section">
         <div class="row">
             <div class="input-field col s12 m4">
-                <h4>Tus Apuestas</h4>
+                <h4><b>Tus Apuestas</b></h4>
                 <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
                 <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
                 <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
                 <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
             </div>
             <div class="input-field col s12 m4">
-                <h4>Las Apuestas de otros competidores</h4>
-                <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-                <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-                <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-                <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
+            </div>
+            <div class="input-field col s12 m4">
+                <h4><b>Las Apuestas de otros competidores</b></h4>
+                <input class="controls" type="text" name="participante1" id="participante1" placeholder="Partido 1: Equipo A vs Equipo B">
+                <input class="controls" type="text" name="participante2" id="participante2" placeholder="Partido 2: Equipo C vs Equipo D">
+                <input class="controls" type="text" name="participante3" id="participante3" placeholder="Partido 3: Equipo E vs Equipo F">
+                <input class="controls" type="text" name="participante4" id="participante4" placeholder="Partido 4: Equipo G vs Equipo H">
             </div>
         </div>
     </div>
+    <button align="center" class="botonIrAResultadosCuartos" type="submit" name="ResultadosCuartos" onclick="location='ResultadosCuartos.php'">Ver Resultados de Cuartos</button>
+</div>
 </main>
 
 
