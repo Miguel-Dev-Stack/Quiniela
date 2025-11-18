@@ -67,7 +67,6 @@
 
 <!-- TERMINA SLIDER RESPONSIVO -->
 
-<!--
 <main class="contenedorApuestas sombra">
 <h2>Difusión de Apuestas de Cuartos de Final</h2>
     <div class="difusionApuestas">
@@ -86,52 +85,9 @@
     </div>
 </main>
 
-<main class="contenedorApuestas sombra">
-<h2>Difusión de Apuestas de Cuartos de Final</h2>
-    <div class="difusionApuestasCompetidores">
-        <h4>Las Apuestas de otros competidores</h4>
-        <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-        <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-        <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-        <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
-    </div>
-</main>
-
-<div class="input-field col s12 m4">
-    <button class="botons2" type="submit" name="regresarApuestas" onclick="location='apuestasCuartos.php'">Regresar a Apuestas</button>
-</div>
-
-<div class="input-field col s12 m4">
-    <button class="botons2" type="submit" name="verResultados" onclick="location='resultadosCuartos.php'">Ver Resultados</button>
-</div>
--->
-
-<main class="contenedorApuestas sombra">
-<h2>Difusión de Apuestas de Cuartos de Final</h2>
-    <div class="section">
-        <div class="row">
-            <div class="input-field col s12 m4">
-                <h4>Tus Apuestas</h4>
-                <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-                <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-                <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-                <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
-            </div>
-            <div class="input-field col s12 m4">
-                <h4>Las Apuestas de otros competidores</h4>
-                <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-                <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-                <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-                <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
-            </div>
-        </div>
-    </div>
-</main>
-
-
     
 <footer class="footer">
-    <p>2025. Corporativo Covadonga. Todos los derechos reservados.</p>
+    <p>Todos los derechos reservados. HCV</p>
 </footer>
 
 </body>

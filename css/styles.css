@@ -16,7 +16,7 @@ html {
 .servicios,
 .navegacion-principal,
 .formulario {
-    scroll-snap-align: center;
+    /*scroll-snap-align: center;*/
     scroll-snap-stop: always;
 }
 
@@ -422,6 +422,16 @@ body {
 
 .form-register .botons {
   width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.botons2 {
+  width: 50%;
   background: #1f53c5;
   border: none;
   padding: 12px;
