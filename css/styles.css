@@ -285,6 +285,7 @@ h1,h2,h3 {
     white-space: nowrap; /* Mantiene todos los elementos en una sola línea */
 }
 
+
 .slider-track {
     display: inline-flex; /* Permite que los elementos fluyan horizontalmente */
     animation: scroll 20s linear infinite; /* Animación continua */
@@ -414,6 +415,7 @@ body {
   font-family: 'calibri';
   font-size: 18px;
   color: white;
+  align-content: center;
 }
 
 .form-register p {
@@ -477,4 +479,12 @@ body {
   font-family: 'calibri';
   color: white;
   box-shadow: 7px 13px 37px #000;
+}
+
+.contador-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }

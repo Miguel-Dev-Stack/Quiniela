@@ -34,16 +34,15 @@
 <body>
     <header>
         <h1 class="titulo">Quiniela Covadonga <span>Liga MX</span></h1>
-        <button class="botons" type="submit" name="cerrarSesion" onclick="location='iniciar_sesion.php'">Salir</button>
     </header>
 
     <div class="nav-bg">
         <nav class="navegacion-principal1 contenedor1">
             <a href="index.php">Inicio</a>
-            <a href="#">Sobre Mi</a>
-            <a href="participantes.php">Participantes</a>
-            <a href="#">Partidos</a>
-            <a href="#">Contacto</a>
+            <a href="apuestasCuartos.php">Apuestas</a>
+            <a href="difusionCuartos.php">Difusión de Cuartos</a>
+            <a href="resultadosCuartos.php">Resultados de Cuartos</a>
+            <a href="iniciar_sesion.php">Salir</a>
         </nav>
     </div>
     
@@ -84,15 +83,69 @@
 <div class="container">
     <div class="section">
         <div class="row">
-            <div class="input-field col s12 m4">
+            <div class="input-field col s12 m3">
                 <h4><b>Tus Apuestas</b></h4>
                 <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
                 <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
                 <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
                 <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
             </div>
-            <div class="input-field col s12 m4">
+            
+            <div class="input-field col s12 m9">
+                <table> <caption style="font-size: 35px;"><b>Partidos</b></caption>
+                    <thead>
+                      <tr>
+                          <th>Participantes</th>
+                          <th align-text="center">Chivas<img src="./img/Chivas.png" width="30" height="30" align-img="center"></th>
+                          <th>América<img src="./img/America.png" width="30" height="30" align-img="center"></th>
+                          <th>Cruz Azul<img src="./img/CruzAzul.png" width="30" height="30" align-img="center"></th>
+                          <th>Monterrey<img src="./img/Monterrey.png" width="30" height="30" align-img="center"></th>
+                          <th>Pachuca<img src="./img/Pachuca.png" width="30" height="30" align-img="center"></th>
+                          <th>Tigres<img src="./img/Tigres.png" width="30" height="30" align-img="center"></th>
+                          <th>León<img src="./img/Leon.png" width="30" height="30" align-img="center"></th>
+                          <th>Puebla<img src="./img/Puebla.png" width="30" height="30" align-img="center"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gerardo</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Aarón</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Lorenzo</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nancy</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Miguel</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+            <!--
             <div class="input-field col s12 m4">
                 <h4><b>Las Apuestas de otros competidores</b></h4>
                 <input class="controls" type="text" name="participante1" id="participante1" placeholder="Partido 1: Equipo A vs Equipo B">
@@ -100,6 +153,7 @@
                 <input class="controls" type="text" name="participante3" id="participante3" placeholder="Partido 3: Equipo E vs Equipo F">
                 <input class="controls" type="text" name="participante4" id="participante4" placeholder="Partido 4: Equipo G vs Equipo H">
             </div>
+            -->
         </div>
     </div>
     <button align="center" class="botonIrAResultadosCuartos" type="submit" name="ResultadosCuartos" onclick="location='ResultadosCuartos.php'">Ver Resultados de Cuartos</button>

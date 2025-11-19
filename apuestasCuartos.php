@@ -28,16 +28,15 @@
 <body>
     <header>
         <h1 class="titulo">Quiniela Covadonga <span>Liga MX</span></h1>
-        <button class="botons" type="submit" name="cerrarSesion" onclick="location='iniciar_sesion.php'">Salir</button>
     </header>
 
     <div class="nav-bg">
         <nav class="navegacion-principal1 contenedor1">
             <a href="index.php">Inicio</a>
-            <a href="#">Sobre Mi</a>
-            <a href="participantes.php">Participantes</a>
-            <a href="#">Partidos</a>
-            <a href="#">Contacto</a>
+            <a href="apuestasCuartos.php">Apuestas</a>
+            <a href="difusionCuartos.php">Difusión de Cuartos</a>
+            <a href="resultadosCuartos.php">Resultados de Cuartos</a>
+            <a href="iniciar_sesion.php">Salir</a>
         </nav>
     </div>
     
@@ -76,10 +75,30 @@
 <h2><b>Apuestas de Cuartos de Final</b></h2>
     <section class="form-register">
         <h4>Realiza tus Apuestas</h4>
-        <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-        <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-        <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-        <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
+        <div class="tarjeta">
+            <h1>Contador</h1>
+            <div class="contador">
+                <h2 id="contador">0</h2>
+            </div>
+
+            <div class="grupo-btn">
+                <button id="aumentar" class="btn incrementar" >Aumentar</button>
+                <button class="btn disminuir" >Disminuir</button>
+                <button class="btn restablecer" >Restablecer</button>
+            </div>
+            
+            <!--
+            <button onclick="sumar()">+</button>
+            <input type="number" value="0">
+            <button onclick="restar()">-</button>
+
+            <button onclick="sumar()">+</button>
+            <input type="number" value="0">
+            <button onclick="restar()">-</button>
+            -->
+
+        </div>
+        <script src="script.js"></script>
         <button class="botons" type="submit" name="guardarApuestas" onclick="location='difusionCuartos.php'">Guardar Apuestas</button>
     </section>
 </main>

@@ -34,16 +34,15 @@
 <body>
     <header>
         <h1 class="titulo">Quiniela Covadonga <span>Liga MX</span></h1>
-        <button class="botons" type="submit" name="cerrarSesion" onclick="location='iniciar_sesion.php'">Salir</button>
     </header>
 
     <div class="nav-bg">
         <nav class="navegacion-principal1 contenedor1">
             <a href="index.php">Inicio</a>
-            <a href="#">Sobre Mi</a>
-            <a href="participantes.php">Participantes</a>
-            <a href="#">Partidos</a>
-            <a href="#">Contacto</a>
+            <a href="apuestasCuartos.php">Apuestas</a>
+            <a href="difusionCuartos.php">Difusión de Cuartos</a>
+            <a href="resultadosCuartos.php">Resultados de Cuartos</a>
+            <a href="iniciar_sesion.php">Salir</a>
         </nav>
     </div>
     
