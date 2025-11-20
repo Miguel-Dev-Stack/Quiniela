@@ -83,15 +83,9 @@
 <div class="container">
     <div class="section">
         <div class="row">
-            <div class="input-field col s12 m3">
-                <h4><b>Tus Apuestas</b></h4>
-                <input class="controls" type="text" name="partido1" id="partido1" placeholder="Partido 1: Equipo A vs Equipo B">
-                <input class="controls" type="text" name="partido2" id="partido2" placeholder="Partido 2: Equipo C vs Equipo D">
-                <input class="controls" type="text" name="partido3" id="partido3" placeholder="Partido 3: Equipo E vs Equipo F">
-                <input class="controls" type="text" name="partido4" id="partido4" placeholder="Partido 4: Equipo G vs Equipo H">
-            </div>
             
-            <div class="input-field col s12 m9">
+            
+            <div class="input-field col s12 m12">
                 <table> <caption style="font-size: 35px;"><b>Partidos</b></caption>
                     <thead>
                       <tr>
